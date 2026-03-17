@@ -78,6 +78,18 @@ main_directory/
 
 ## HOW TO USE
 
+This project requires **blast+** to be installed and available in your system's PATH.
+
+Make sure that:
+- **blast+ is installed** on your machine (via a package manager or manual installation).
+- The BLAST+ executables (e.g., blastp) are accessible from the command line.
+
+You can verify the installation with:
+```bash
+blastp -version
+
+If the command is not recognized, make sure the installation directory is correctly added to your PATH.
+
 
 ## **main.py :**
 
@@ -114,6 +126,7 @@ optional arguments:
 ```
 
 ## **blasting.py only :**
+
 You will need : (see also _Folders structure_)
 * The model's sbml file (.sbml)
 * The model's proteome fasta (.faa)
