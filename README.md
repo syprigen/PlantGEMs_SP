@@ -90,6 +90,28 @@ blastp -version
 ```
 If the command is not recognized, make sure the installation directory is correctly added to your PATH.
 
+## Test data
+
+A set of example files is provided to test the `blasting.py` module.
+
+```
+testBlasting/
+  ├── files/
+  │    ├── model.sbml
+  │    ├── model.faa
+  │    ├── test.faa
+  │    ├── test.gff
+  └── main.ini
+```
+These files can be used as minimal input data to quickly validate that the blasting workflow is correctly set up.
+
+- `model.sbml`: reference metabolic model
+- `model.faa`: protein sequences associated with the model
+- `test.faa`: query proteome
+- `test.gff`: genome annotation file
+
+You can run `blasting.py` using this directory as a test case before using your own data.
+
 
 ## **main.py :**
 
