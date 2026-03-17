@@ -87,7 +87,7 @@ Make sure that:
 You can verify the installation with:
 ```bash
 blastp -version
-
+```
 If the command is not recognized, make sure the installation directory is correctly added to your PATH.
 
 
